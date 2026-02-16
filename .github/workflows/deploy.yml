@@ -1,12 +1,9 @@
-# Auto-generated deploy workflow
 name: Build and Deploy to Vercel
 
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
-    inputs:
-      vercel_project_id:
-        description: 'Vercel Project ID'
-        required: true
 
 jobs:
   deploy:
@@ -14,7 +11,7 @@ jobs:
     env:
       VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-      VERCEL_PROJECT_ID: ${{ inputs.vercel_project_id }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
     steps:
       - uses: actions/checkout@v4
 
