@@ -1,272 +1,363 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "URA Espacio Terapéutico",
+  logo: "/images/logo.png",
+  tagline: "Tu bienestar integral en Guipúzcoa",
+  description: "URA Espacio Terapéutico es tu clínica de fisioterapia y bienestar en Guipúzcoa, con valoración de 5 estrellas en Google. Nos especializamos en tratamientos que combinan fisioterapia manual, presoterapia, drenaje linfático y masajes terapéuticos. Patricia y su equipo crean experiencias únicas donde la recuperación física se une al bienestar emocional, cuidando cada detalle para que salgas renovado.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#2563EB",
+    secondary: "#1E293B",
+    accent: "#06B6D4",
+    neutral: "#F8FAFC"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "943 42 57 04",
+  whatsapp: "+34943425704",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "C. Garibai, 6, 1ºC, 20004 Donostia / San Sebastián, Guipúzcoa, España",
+    city: "Guipúzcoa",
+    province: "Madrid",
+    postalCode: "20004",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=2255735729507680569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=URA%20Espacio%20Terap%C3%A9utico%20%4043.3215%2C-1.98411&z=16&output=embed",
+  coordinates: {
+    lat: 43.3215,
+    lng: -1.98411
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "9:30–19:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 5,
+    count: 103,
+    url: "https://maps.google.com/?cid=2255735729507680569&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Abene Estudio",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Patricia es maravillosa, estoy muy sorprendida con la calidad del servicio. He podido asistir a diferentes fisioterapeutas a lo largo de los años pero nunca he recibido una atención y servicio tan buenos. Una vez conocida a ella, creo que el resto se quedan atrás y voy a explicar por qué: como profesional de la fisioterapia me ha encantado. He notado cómo me liberaba cada uno de mis músculos y el resultado ha sido muy bueno. El estrés del trabajo y las infinitas horas delante del ordenador me habían dejado agarrotada y a los días de su sesión me noto mucho más libre en los movimientos y más ligera. Pero su servicio no sólo se limita a mejorar estas molestias o dolores específicos. La hora en su cabina ha sido una hora dedicada al bienestar. Los aceites esenciales, la presoterapia  del final (descargando también las piernas) mientras te da un masaje en cuello, cara y cabeza... ha sido una maravilla. He salido flotando, totalmente relajada, como si hubiese estado en un tratamiento de bienestar pero a su vez solucionando el problema de carga y agarrotamiento en la espalda. Sin duda volveré, quiero incorporar su servicio más como un mantenimiento. El dinero mejor invertido del año!",
+        date: "Hace 4 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "Pau",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Me recomendaron la clínica para hacerme un tratamiento de presoterapia y la verdad es que acertaron de pleno. Desde que entré, el trato fue profesional y cercano. Cuidan muchísimo los detalles. El ambiente es tranquilo, la decoración está hecha con mimo y la música suave y agradable que crea sensación de calma. Además, están pendientes de que estés cómodo en cada momento, lo que transmite mucha confianza.\nLa sesión fue muy agradable y se nota que Patricia sabe muy bien lo que hace. Sin duda volveré.",
+        date: "Hace 2 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "gorka lopez",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Mi experiencia con el masaje de drenaje linfático fue muy positivo. El lugar es agradable y transmite una gran calma. La profesional no solo demostró un alto nivel de profusión y técnica sino también fue muy  empática y cercana (el masaje fue muy profesional), ¡Un servicio de 10!",
+        date: "Hace 2 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Miguel Matarranz",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "De lo mejor de Donosti. La calidad del tratamiento así como la energía y el cariño de su titular Patricia merece destacarse. Soy muy asiduo. Destacar además su puesta al día en diferentes tratamientos que siempre aplica al cliente con la máxima dedicación. Un tesoro de sanación.",
+        date: "Hace 2 meses"
       },
-    ],
+      {
+        author: "Ane Goitia",
+        rating: 5,
+        text: "Una gozada de trato. Transmite muchísima tranquilidad, comprensión y profesionalidad. Me sentí súper bien durante el tratamiento y después también!",
+        date: "Hace 4 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Técnicas manuales especializadas que liberan cada músculo con precisión profesional. Ideal para dolores de espalda, contracturas y tensiones acumuladas por estrés laboral o malas posturas. Notarás la diferencia desde la primera sesión, con movimientos más libres y sensación de ligereza.",
+      benefits: [
+        "Alivio inmediato de contracturas y dolor muscular",
+        "Mejora significativa de la movilidad articular",
+        "Recuperación de la funcionalidad en tu día a día"
+      ],
+      icon: "Hand"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "presoterapia",
+      name: "Presoterapia",
+      description: "Tratamiento avanzado de compresión terapéutica que mejora la circulación y drena líquidos retenidos. Perfecta para piernas cansadas, recuperación deportiva o complemento a otros tratamientos. Durante la sesión, disfrutarás de un masaje relajante en cuello, cara y cabeza que completa la experiencia de bienestar.",
+      benefits: [
+        "Descarga y alivio profundo en piernas pesadas",
+        "Mejora la circulación sanguínea y linfática",
+        "Sensación de ligereza y descanso inmediato"
+      ],
+      icon: "Activity"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "drenaje-linfatico",
+      name: "Drenaje Linfático",
+      description: "Masaje terapéutico especializado que estimula el sistema linfático para eliminar toxinas y reducir la retención de líquidos. Aplicado con técnica profesional y gran empatía, este tratamiento mejora tu bienestar general y aporta una profunda sensación de calma.",
+      benefits: [
+        "Eliminación efectiva de toxinas y líquidos retenidos",
+        "Reducción visible de hinchazón y edemas",
+        "Fortalecimiento del sistema inmunológico"
+      ],
+      icon: "Heart"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "masaje-terapeutico",
+      name: "Masaje Terapéutico",
+      description: "Sesiones diseñadas para combinar recuperación física con bienestar emocional. Utilizamos aceites esenciales en un ambiente cuidado al detalle, con música suave y decoración pensada para tu relajación. Ideal para mantener tu cuerpo en equilibrio y prevenir molestias.",
+      benefits: [
+        "Liberación de tensión muscular y estrés acumulado",
+        "Experiencia de bienestar integral cuerpo-mente",
+        "Prevención de futuras lesiones y contracturas"
+      ],
+      icon: "Hand"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "tratamiento-espalda",
+      name: "Tratamiento de Espalda",
+      description: "Especializado en dolores y agarrotamientos causados por largas horas frente al ordenador o posturas mantenidas. Combinamos técnicas manuales con terapias complementarias para liberar cada zona de tensión. Notarás cómo recuperas libertad de movimiento y ligereza.",
+      benefits: [
+        "Solución efectiva para dolor cervical y lumbar",
+        "Corrección de desequilibrios posturales",
+        "Mayor libertad de movimiento en tu día a día"
+      ],
+      icon: "Target"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "fisioterapia-deportiva",
+      name: "Fisioterapia Deportiva",
+      description: "Recuperación y prevención de lesiones deportivas con técnicas avanzadas. Tratamientos personalizados que aceleran tu vuelta a la actividad física, manteniendo siempre el enfoque en tu bienestar integral y recuperación completa.",
+      benefits: [
+        "Recuperación más rápida de lesiones deportivas",
+        "Prevención de recaídas y nuevas lesiones",
+        "Optimización del rendimiento deportivo"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "rehabilitacion",
+      name: "Rehabilitación Personalizada",
+      description: "Programas de rehabilitación diseñados específicamente para ti, con seguimiento continuo hasta tu completa recuperación. Aplicamos las técnicas más actualizadas con dedicación máxima, adaptándonos a tu evolución en cada sesión.",
+      benefits: [
+        "Plan de tratamiento adaptado a tu caso específico",
+        "Seguimiento profesional en cada fase",
+        "Recuperación completa y duradera"
+      ],
+      icon: "Activity"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "tratamientos-bienestar",
+      name: "Tratamientos de Bienestar",
+      description: "Sesiones pensadas para el autocuidado y mantenimiento de tu salud. Más allá de tratar dolencias específicas, creamos experiencias donde cada detalle cuenta: desde el ambiente hasta la atención personalizada. El mejor regalo que puedes hacerte.",
+      benefits: [
+        "Prevención de dolencias y mantenimiento de la salud",
+        "Reducción de estrés y mejora del bienestar emocional",
+        "Experiencia completa de cuidado personal"
+      ],
+      icon: "Heart"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotros",
+      description: "Llámanos al 943 42 57 04 o escríbenos por WhatsApp. Te atenderemos con cercanía y profesionalidad para encontrar el mejor momento para tu primera sesión en URA Espacio Terapéutico."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Primera Sesión Personalizada",
+      description: "Patricia evaluará tu situación específica con empatía y profesionalidad. Diseñaremos juntos un plan de tratamiento adaptado a tus necesidades, combinando las técnicas más adecuadas para tu recuperación y bienestar."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Experiencia de Tratamiento",
+      description: "Disfruta de tu sesión en un ambiente cuidado al detalle: música suave, aceites esenciales y decoración pensada para tu calma. Cada tratamiento combina técnica profesional con atención al bienestar integral, para que salgas renovado."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento y Mantenimiento",
+      description: "Acompañamos tu evolución con seguimiento continuo hasta tu completa recuperación. Muchos de nuestros pacientes incorporan nuestros tratamientos como mantenimiento regular, porque el cuidado constante es la mejor inversión en tu salud."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Valoración Excelente de Nuestros Pacientes",
+      description: "Contamos con 5 estrellas en Google con más de 103 reseñas reales. Nuestros pacientes destacan la calidad profesional, el trato cercano y empático, y los resultados efectivos que experimentan desde la primera sesión. Una confianza ganada con dedicación y excelencia.",
+      icon: "Heart"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Experiencia de Bienestar Integral",
+      description: "No solo tratamos tu dolencia, creamos experiencias completas de recuperación y bienestar. Cuidamos cada detalle: aceites esenciales, música suave, decoración pensada para tu calma, y tratamientos complementarios como presoterapia con masaje facial incluido. Saldrás renovado física y emocionalmente.",
+      icon: "Hand"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Profesionalidad y Técnica Avanzada",
+      description: "Patricia y su equipo combinan alta cualificación profesional con formación constante en técnicas actualizadas. Notarás cómo liberamos cada músculo con precisión, aplicando los tratamientos más efectivos para tu caso específico. Profesionalidad que se siente en cada sesión.",
+      icon: "Target"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Atención Personalizada y Cercana",
+      description: "Cada paciente es único y así te tratamos. Desde la primera llamada hasta el seguimiento de tu evolución, recibirás atención empática, cercana y totalmente adaptada a ti. Estamos pendientes de tu comodidad en cada momento, transmitiendo la confianza que necesitas para tu recuperación.",
+      icon: "Heart"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Patricia",
+      role: "Fisioterapeuta y Directora",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En URA Espacio Terapéutico nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "URA Espacio Terapéutico - Imagen 1"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "URA Espacio Terapéutico - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "URA Espacio Terapéutico - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "URA Espacio Terapéutico - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "URA Espacio Terapéutico - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "URA Espacio Terapéutico - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "URA Espacio Terapéutico - Imagen 7"
+    },
+    {
+      src: "/images/gallery/8.webp",
+      alt: "URA Espacio Terapéutico - Imagen 8"
+    },
+    {
+      src: "/images/gallery/9.webp",
+      alt: "URA Espacio Terapéutico - Imagen 9"
+    },
+    {
+      src: "/images/gallery/10.webp",
+      alt: "URA Espacio Terapéutico - Imagen 10"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué tipo de tratamientos ofrece URA Espacio Terapéutico?",
+      answer: "En URA Espacio Terapéutico combinamos fisioterapia manual, presoterapia, drenaje linfático y masajes terapéuticos. Nos especializamos en tratar dolores de espalda, contracturas por estrés laboral, piernas cansadas y lesiones deportivas. Cada tratamiento se personaliza según tus necesidades específicas, siempre en un ambiente diseñado para tu máximo bienestar y relajación."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cómo es una sesión en vuestra clínica?",
+      answer: "Nuestras sesiones son experiencias completas de bienestar. Utilizamos aceites esenciales, música suave y cuidamos cada detalle del ambiente para tu relajación. Los tratamientos combinan técnicas profesionales de fisioterapia con terapias complementarias como presoterapia y masajes faciales. La duración aproximada es de una hora, donde estarás en manos expertas y saldrás sintiéndote renovado y ligero."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Necesito una valoración previa antes del tratamiento?",
+      answer: "Sí, en tu primera visita realizamos una valoración personalizada para entender tu situación específica y diseñar el mejor plan de tratamiento. Patricia evaluará tus necesidades con profesionalidad y empatía, explicándote qué técnicas son las más adecuadas para ti. Esta primera sesión nos permite crear un tratamiento totalmente adaptado a tu caso particular."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿La presoterapia está incluida en los tratamientos?",
+      answer: "La presoterapia puede ser un tratamiento independiente o complemento a otras terapias según tus necesidades. Es especialmente efectiva para piernas cansadas, mejora de circulación y recuperación deportiva. Durante la sesión de presoterapia, además recibirás un masaje relajante en cuello, cara y cabeza que completa la experiencia de bienestar y descarga completa."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Por qué los clientes valoran tan bien URA Espacio Terapéutico?",
+      answer: "Contamos con valoración de 5 estrellas en Google con más de 103 reseñas. Nuestros pacientes destacan la calidad técnica profesional, la atención cercana y empática, y especialmente el cuidado en cada detalle del ambiente. Muchos comentan que es la mejor experiencia que han tenido en fisioterapia, combinando efectividad en la recuperación con una sensación de bienestar integral que no encuentran en otros lugares."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Tratáis dolores de espalda por trabajo de oficina?",
+      answer: "Sí, es una de nuestras especialidades. Las largas horas frente al ordenador generan contracturas y agarrotamiento que tratamos con gran efectividad. Liberamos cada músculo con técnicas manuales especializadas y notarás mayor libertad de movimiento y ligereza desde las primeras sesiones. Muchos de nuestros pacientes incorporan tratamientos regulares como mantenimiento preventivo para evitar que las molestias reaparezcan."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Cómo puedo reservar mi cita en URA Espacio Terapéutico?",
+      answer: "Puedes llamarnos directamente al 943 42 57 04 o contactarnos por WhatsApp. Te atenderemos personalmente para encontrar el mejor horario según tu disponibilidad. Estamos en Guipúzcoa y te recibiremos en un espacio tranquilo donde cada detalle está pensado para tu comodidad y recuperación."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Ofrecéis tratamientos de mantenimiento o solo para lesiones?",
+      answer: "Ofrecemos ambos. Además de tratar lesiones y dolencias específicas, muchos de nuestros pacientes vienen regularmente para mantenimiento y prevención. Nuestros tratamientos de bienestar están diseñados para cuidar tu salud de forma continua, reducir el estrés acumulado y prevenir futuras molestias. Como dicen nuestros clientes, es la mejor inversión en tu bienestar que puedes hacer."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | URA Espacio Terapéutico",
+    defaultTitle: "URA Espacio Terapéutico | Fisioterapia en Guipúzcoa",
+    defaultDescription: "Fisioterapia y bienestar en Guipúzcoa. Tratamientos de fisioterapia manual, presoterapia y drenaje linfático. Valoración 5★ en Google. Reserva tu cita: 943 42 57 04",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Guipúzcoa",
+      "URA Espacio Terapéutico",
+      "presoterapia Guipúzcoa",
+      "drenaje linfático Guipúzcoa",
+      "fisioterapeuta Guipúzcoa",
+      "masaje terapéutico Guipúzcoa",
+      "tratamiento espalda Guipúzcoa",
+      "fisioterapia manual Guipúzcoa",
+      "clínica fisioterapia Guipúzcoa",
+      "fisioterapia deportiva Guipúzcoa",
+      "Patricia fisioterapeuta",
+      "bienestar integral Guipúzcoa"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "URA Espacio Terapéutico",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C. Garibai, 6, 1ºC, 20004 Donostia / San Sebastián, Guipúzcoa, España, Guipúzcoa, Madrid"
   },
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Guipúzcoa"
+  ],
+  heroDescription: "En URA Espacio Terapéutico transformamos tu recuperación en una experiencia de bienestar completa. Combinamos técnicas de fisioterapia avanzada con tratamientos que cuidan tu cuerpo y mente, en un ambiente diseñado para tu máxima relajación y recuperación.",
+  specialty: "Fisioterapia y Bienestar",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Listo para sentirte mejor que nunca?",
+  ctaDescription: "Reserva tu sesión en URA Espacio Terapéutico y descubre por qué nuestros clientes nos valoran con 5 estrellas. Tu recuperación y bienestar comienzan aquí.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
+  sectionCopy: {
+    servicesLabel: "Nuestros Servicios",
+    servicesTitle: "Tratamientos especializados",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
+    processLabel: "Cómo Trabajamos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
+    processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
+    whyUsLabel: "Por Qué Elegirnos",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
+    reviewsLabel: "Opiniones",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
+    galleryLabel: "Instalaciones",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
+    faqLabel: "FAQ",
+    faqTitle: "Preguntas frecuentes",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
+    locationLabel: "Ubicación",
+    locationTitle: "Cómo llegar",
+    teamLabel: "Nuestro Equipo",
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
