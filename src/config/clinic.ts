@@ -1,8 +1,8 @@
 export const clinic = {
   name: "URA Espacio Terapéutico",
   logo: "/images/logo.png",
-  tagline: "Tu bienestar integral en Guipúzcoa",
-  description: "URA Espacio Terapéutico es tu clínica de fisioterapia y bienestar en Guipúzcoa, con valoración de 5 estrellas en Google. Nos especializamos en tratamientos que combinan fisioterapia manual, presoterapia, drenaje linfático y masajes terapéuticos. Patricia y su equipo crean experiencias únicas donde la recuperación física se une al bienestar emocional, cuidando cada detalle para que salgas renovado.",
+  tagline: "Tu bienestar integral en Donostia-San Sebastián",
+  description: "URA Espacio Terapéutico es tu clínica de fisioterapia y bienestar en Donostia-San Sebastián, con valoración de 5 estrellas en Google. Nos especializamos en tratamientos que combinan fisioterapia manual, presoterapia, drenaje linfático y masajes terapéuticos. Patricia y su equipo crean experiencias únicas donde la recuperación física se une al bienestar emocional, cuidando cada detalle para que salgas renovado.",
   colors: {
     primary: "#2563EB",
     secondary: "#1E293B",
@@ -14,9 +14,9 @@ export const clinic = {
   whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
   email: "",
   address: {
-    street: "C. Garibai, 6, 1ºC, 20004 Donostia / San Sebastián, Guipúzcoa, España",
-    city: "Guipúzcoa",
-    province: "Madrid",
+    street: "Calle Garibai 6, 1C",
+    city: "Donostia-San Sebastián",
+    province: "Gipuzkoa",
     postalCode: "20004",
     country: "España"
   },
@@ -290,7 +290,7 @@ export const clinic = {
     },
     {
       question: "¿Cómo puedo reservar mi cita en URA Espacio Terapéutico?",
-      answer: "Puedes llamarnos directamente al 943 42 57 04 o contactarnos por WhatsApp. Te atenderemos personalmente para encontrar el mejor horario según tu disponibilidad. Estamos en Guipúzcoa y te recibiremos en un espacio tranquilo donde cada detalle está pensado para tu comodidad y recuperación."
+      answer: "Puedes llamarnos directamente al 943 42 57 04 o contactarnos por WhatsApp. Te atenderemos personalmente para encontrar el mejor horario según tu disponibilidad. Estamos en Donostia-San Sebastián y te recibiremos en un espacio tranquilo donde cada detalle está pensado para tu comodidad y recuperación."
     },
     {
       question: "¿Ofrecéis tratamientos de mantenimiento o solo para lesiones?",
@@ -299,33 +299,33 @@ export const clinic = {
   ],
   seo: {
     titleTemplate: "%s | URA Espacio Terapéutico",
-    defaultTitle: "URA Espacio Terapéutico | Fisioterapia en Guipúzcoa",
-    defaultDescription: "Fisioterapia y bienestar en Guipúzcoa. Tratamientos de fisioterapia manual, presoterapia y drenaje linfático. Valoración 5★ en Google. Reserva tu cita: 943 42 57 04",
+    defaultTitle: "URA Espacio Terapéutico | Fisioterapia en Donostia-San Sebastián",
+    defaultDescription: "Fisioterapia y bienestar en Donostia-San Sebastián. Tratamientos de fisioterapia manual, presoterapia y drenaje linfático. Valoración 5★ en Google. Reserva tu cita: 943 42 57 04",
     keywords: [
-      "fisioterapia Guipúzcoa",
+      "fisioterapia Donostia-San Sebastián",
       "URA Espacio Terapéutico",
-      "presoterapia Guipúzcoa",
-      "drenaje linfático Guipúzcoa",
-      "fisioterapeuta Guipúzcoa",
-      "masaje terapéutico Guipúzcoa",
-      "tratamiento espalda Guipúzcoa",
-      "fisioterapia manual Guipúzcoa",
-      "clínica fisioterapia Guipúzcoa",
-      "fisioterapia deportiva Guipúzcoa",
+      "presoterapia Donostia-San Sebastián",
+      "drenaje linfático Donostia-San Sebastián",
+      "fisioterapeuta Donostia-San Sebastián",
+      "masaje terapéutico Donostia-San Sebastián",
+      "tratamiento espalda Donostia-San Sebastián",
+      "fisioterapia manual Donostia-San Sebastián",
+      "clínica fisioterapia Donostia-San Sebastián",
+      "fisioterapia deportiva Donostia-San Sebastián",
       "Patricia fisioterapeuta",
-      "bienestar integral Guipúzcoa"
+      "bienestar integral Donostia-San Sebastián"
     ],
     ogImage: "/og-image.jpg"
   },
   legal: {
     companyName: "URA Espacio Terapéutico",
     cif: "",
-    registeredAddress: "C. Garibai, 6, 1ºC, 20004 Donostia / San Sebastián, Guipúzcoa, España, Guipúzcoa, Madrid"
+    registeredAddress: "Calle Garibai 6, 1C, 20004 Donostia-San Sebastián, Gipuzkoa, España"
   },
   heroHeadline: [
     "Tu Centro de",
     "Fisioterapia",
-    "en Guipúzcoa"
+    "en Donostia"
   ],
   heroDescription: "En URA Espacio Terapéutico transformamos tu recuperación en una experiencia de bienestar completa. Combinamos técnicas de fisioterapia avanzada con tratamientos que cuidan tu cuerpo y mente, en un ambiente diseñado para tu máxima relajación y recuperación.",
   specialty: "Fisioterapia y Bienestar",
