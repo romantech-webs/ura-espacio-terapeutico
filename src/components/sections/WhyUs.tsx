@@ -48,17 +48,16 @@ export function WhyUs() {
               Por Qué Elegirnos
             </span>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold mt-4 mb-6">
-              Tu belleza,{" "}
+              {clinic.sectionCopy.whyUsTitle.split(',')[0]},{" "}
               <span className="relative inline-block">
-                nuestra pasión
+                {clinic.sectionCopy.whyUsTitle.split(',')[1]?.trim() || 'nuestra prioridad'}
                 <svg className="absolute -bottom-2 left-0 w-full h-3 text-primary/50" viewBox="0 0 200 12" fill="none">
                   <path d="M2 10C50 4 150 4 198 10" stroke="currentColor" strokeWidth="3" strokeLinecap="round"/>
                 </svg>
               </span>
             </h2>
             <p className="text-white/60 text-xl mb-12 leading-relaxed">
-              Combinamos experiencia, las mejores técnicas y un trato
-              personalizado para realzar tu belleza natural.
+              {clinic.sectionCopy.whyUsDescription}
             </p>
 
             {/* Features */}

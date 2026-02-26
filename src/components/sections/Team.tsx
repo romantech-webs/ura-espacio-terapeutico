@@ -28,7 +28,7 @@ export function Team() {
             <span className="text-primary">especializadas</span>
           </h2>
           <p className="text-xl text-secondary/60 leading-relaxed">
-            Experiencia y pasión al servicio de tu belleza
+            {clinic.sectionCopy.teamDescription}
           </p>
         </motion.div>
 
@@ -82,7 +82,7 @@ export function Team() {
                       </div>
                       <div>
                         <p className="font-bold text-secondary">Especialistas</p>
-                        <p className="text-xs text-secondary/50">Micropigmentación</p>
+                        <p className="text-xs text-secondary/50">{clinic.specialty}</p>
                       </div>
                     </div>
                   </motion.div>

@@ -33,8 +33,7 @@ export function Services() {
             <span className="text-primary">especializados</span>
           </h2>
           <p className="text-xl text-secondary/60 leading-relaxed">
-            Técnicas avanzadas de estética y belleza para realzar
-            tu imagen y cuidar de ti.
+            {clinic.sectionCopy.servicesDescription}
           </p>
         </motion.div>
 
